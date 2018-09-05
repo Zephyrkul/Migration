@@ -1,0 +1,9 @@
+
+{
+    "AUTHOR" : "Zephyrkul",
+    "INSTALL_MSG" : "⚠ You will not be able to use commands while this cog is loaded with a set bot.",
+    "NAME" : "Migration",
+    "SHORT" : "Yields to a set V3 bot.",
+    "DESCRIPTION" : "Allows the bot to yield to any online V3 bot. The V2 bot will serve commands if the V3 bot is offline.",
+    "TAGS" : ["utility"]
+}
