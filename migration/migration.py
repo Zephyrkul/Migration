@@ -32,7 +32,7 @@ class Migration:
     async def on_message(self, message):
         if message.author.bot:
             return
-        if "unload migration" in message.content:
+        if message.server is None or "unload migration" in message.content:
             return await self.old_on_message(message)
         red_v3 = message.server.get_member(self.data.get("V3"))
         if red_v3 and red_v3.status != discord.Status.offline:
